@@ -5,6 +5,19 @@
     --font-barlow: "Barlow", "sans-serif";
     --animate-movedown: moveDown 1s ease-in-out;
     --animate-scaleup: scaleUp 1s ease-out;
+    --animate-slideleft: slideLeft 1s ease-in-out;
+    --animate-slideright: slideRight 1s ease-in-out;
+    --color-1: #24303E;
+    --color-2: #808397;
+    --color-3: #24554A;
+    --color-4: #3E7467;
+    --color-5: #052C3B;
+    --color-5: #19536C;
+    --color-6: #A7AAAD;
+    --color-7: #5B636D;
+    --color-8: #90D4C6;
+    --color-9: #2C7566;
+    --color-10: #458D7E;
 }
 
 @keyframes moveDown {
@@ -30,4 +43,33 @@
         opacity: 1;
         transform: scale(1);
     }
+}
+
+@keyframes slideLeft {
+
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+        /* Initial position (centered) */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        /* Final position (no translation) */
+    }
+
+}
+
+@keyframes slideRight {
+
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
 }

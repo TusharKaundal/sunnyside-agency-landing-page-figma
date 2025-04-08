@@ -74,13 +74,13 @@ function App() {
               <h1 className="text-[40px] text-[#24303E] font-bold tracking-[-0.29px] animate-movedown">
                 Transform your brand
               </h1>
-              <p className="font-barlow font-semibold text-[#808397] leading-7 tracking-[-0.13px] animate-[moveDown_4s]">
+              <p className="font-barlow font-semibold text-[#808397] leading-7 tracking-[-0.13px] animate-movedown">
                 We are a full-service creative agency specializing in helping
                 brands grow fast. Engage your clients through compelling visuals
                 that do most of the marketing for you.
               </p>
               <a
-                className="relative w-fit font-bold text-[#24303E] leading-6 tracking-[1px]  before:absolute before:-left-1 before:bottom-0 before:-z-1 before:content-[' '] before:w-[110px] before:h-[10px] before:rounded-3xl before:bg-yellow-100 hover:before:bg-yellow-300 animate-[moveDown_1s_2s]"
+                className="relative w-fit font-bold text-[#24303E] leading-6 tracking-[1px]  before:absolute before:-left-1 before:bottom-0 before:-z-1 before:content-[' '] before:w-[110px] before:h-[10px] before:rounded-3xl before:bg-yellow-100 hover:before:bg-yellow-300 animate-movedown"
                 href="#"
               >
                 Learn more
@@ -100,7 +100,7 @@ function App() {
             />
           </picture>
           <div className="md:order-4 w-full flex justify-center md:justify-start">
-            <div className="flex flex-col text-center md:text-start justify-center items-center md:items-start px-6 py-16 gap-10 max-w-[500px]">
+            <div className="flex flex-col text-center md:text-start justify-center items-center md:items-start px-6 py-16 gap-10 max-w-[500px] animate-movedown">
               <h1 className="text-[40px] text-[#24303E] font-bold tracking-[-0.29px]">
                 Stand out to the right audience
               </h1>
@@ -120,7 +120,7 @@ function App() {
 
           <div className="md:order-5 relative">
             <div className="absolute bottom-8 w-full flex justify-center items-center text-center">
-              <div className="max-w-85">
+              <div className="max-w-85 animate-movedown">
                 <h1 className="font-fraunces text-3xl font-bold text-[#24554A] mb-5">
                   Graphic Design
                 </h1>
@@ -145,7 +145,7 @@ function App() {
           </div>
           <div className="md:order-6 relative">
             <div className="absolute bottom-8 w-full flex justify-center items-center text-center">
-              <div className="max-w-85">
+              <div className="max-w-85 animate-movedown">
                 <h1 className="font-fraunces text-3xl font-bold text-[#052C3B] mb-5">
                   Photography
                 </h1>

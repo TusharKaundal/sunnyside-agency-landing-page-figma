@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [mobilenav, setMobileNav] = useState(false);
+
   return (
     <header className="absolute z-57 w-full px-4 top-6 md:px-10 font-barlow">
       <nav className="w-full flex justify-between items-center gap-6">
@@ -57,9 +58,9 @@ const Navbar = () => {
       </nav>
 
       {mobilenav && (
-        <div className="md:hidden text-black relative z-20 flex justify-center items-center py-10 mt-5 bg-white w-full overflow-x-clip">
+        <div className="md:hidden text-[#808397] font-semibold leading-6 -tracking-[0.14px] text-[20px] relative z-20 flex justify-center items-center py-10 mt-5 bg-white w-full overflow-x-clip animate-slideleft">
           <div className="absolute w-6 h-6 bg-white rotate-45 -right-3 -top-3"></div>
-          <ul className="flex flex-col gap-4 [&>li]:[&>a:focus]:bg-yellow-300 text-center">
+          <ul className="flex flex-col gap-4 [&>li]:[&>a:focus]:bg-yellow-300 [&>li]:[&>a:focus]:font-fraunces [&>li]:[&>a:focus]:font-bold [&>li]:[&>a:focus]:text-[#24303E] text-center">
             <li>
               <a
                 className="block  px-6 py-3 hover:cursor-pointer hover:bg-yellow-300 rounded-[48px] focus:outline-none"
